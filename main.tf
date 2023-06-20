@@ -6,7 +6,7 @@ resource "aws_ssm_parameter" "params" {
 }
 variable "params" {
   default = [
-    { name="demo1", value="demo1", ype="String" },
+    { name="demo1", value="demo1", type="String" },
     { name="demo2", value="demo2", type="String" }
 
   ]
